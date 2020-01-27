@@ -1,11 +1,11 @@
-# Consumidor-2
+# Consumidor-3
 
 ### Objetivo
 - Consumidor de dados do arquivo do bolsa família. 
-Essa aplicação é responsável por receber os registros de um topic que recebe informações de um producer responsável por parsear o arquivo. 
-Essa aplicação mostrar os dados do beneficiário que tem a maior parcela até o momento
+Essa aplicação é responsável por receber os registros de um topic do Kafka que recebe informações de um producer responsável por parsear o arquivo. 
+Essa aplicação mostra a quantidade de registros consumidos.
 
-   *[maior valor da parcela]*
+   *[quantidade de registros consumidos]*
 
 ### Tecnologias
 - Java
